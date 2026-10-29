@@ -324,7 +324,7 @@ svony-mcp/
 
 ## 🔒 Security Notes
 
-- ✅ **No credentials stored** - User accounts excluded from repo
+- ⚠️ **Review before transfer** - The current tree includes account-, login-, and key-related material. Do not copy the full repository into a lab or share it without an explicit allowlist and secret review.
 - ✅ **Policy-controlled access** - Three query modes
 - ✅ **Windsurf compatible** - No stderr output (causes Error status)
 - ✅ **Input sanitization** - BOM stripping, JSON validation
@@ -340,6 +340,7 @@ svony-mcp/
 | 📦 AMF Protocol | AMF3 serialization | [View](docs/protocols/AMF_PROTOCOL.md) |
 | 💥 Exploits | Vulnerabilities | [View](docs/exploits/EXPLOITS.md) |
 | 🏗️ Architecture | System diagrams | [View](docs/diagrams/ARCHITECTURE.md) |
+| 🧪 Offline Hyper-V lab | Safe implementation plan, gates, and evidence requirements | [View](Docs/EVONY_RAG_LAB_PLAN.md) |
 
 ---
 
