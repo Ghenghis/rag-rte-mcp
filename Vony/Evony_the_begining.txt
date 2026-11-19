@@ -4892,21 +4892,21 @@ JDK 21+ (64-bit) could not be found and must be manually chosen!
 ******************************************************************
 Enter path to JDK home directory (ENTER for dialog):
 
-While Ghidra is starting up, let me try using Resource Hacker to check for embedded resources:
+While Ghidra is starting up, let me try using Resource Hacker or Resource Cracker (https://www.pelock.com/products/resource-cracker) to check for embedded resources:
 
 Ran terminal command
 c:\projects\AI-Evony\Tools
 
-> & 'C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe' -open .\roboevony.exe -save .\extracted\resources.txt -action extract -mask *,*,*
+> & 'C:\Program Files (x86)\Resource Hacker or Resource Cracker (https://www.pelock.com/products/resource-cracker)\ResourceHacker.exe' -open .\roboevony.exe -save .\extracted\resources.txt -action extract -mask *,*,*
 
 Output
 CopyInsert
-& : The term 'C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe' is 
+& : The term 'C:\Program Files (x86)\Resource Hacker or Resource Cracker (https://www.pelock.com/products/resource-cracker)\ResourceHacker.exe' is 
 not recognized as the name of a cmdlet, function, script file, or operable 
 program. Check the spelling of the name, or if a path was included, verify 
 that the path is correct and try again.
 At line:1 char:3
-+ & 'C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe' -open . ...
++ & 'C:\Program Files (x86)\Resource Hacker or Resource Cracker (https://www.pelock.com/products/resource-cracker)\ResourceHacker.exe' -open . ...
 +   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : ObjectNotFound: (C:\Program File...ourceHacker.e 
    xe:String) [], CommandNotFoundException
